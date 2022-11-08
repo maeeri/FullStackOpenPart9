@@ -20,7 +20,7 @@ export const calculateBmi = (height: number, weight: number) => {
         return { description: description };
     }
 
-    const response: BmiObj = { height: `${height*100} cm`, weigth: `${weight} kg`, bmi: description };
+    const response: BmiObj = { height: `${height * 100} cm`, weigth: `${weight} kg`, bmi: description };
     return response;
 };
 
