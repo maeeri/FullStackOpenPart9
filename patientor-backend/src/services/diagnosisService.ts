@@ -4,4 +4,3 @@ import { Diagnosis } from '../types';
 export const getDiagnoses = (): Array<Diagnosis> => {
     return diagnosisData;
 };
-

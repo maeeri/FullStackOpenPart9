@@ -29,7 +29,7 @@ const HealthRatingBar = ({ rating, showText }: BarProps) => {
     <div className="health-bar">
       <StyledRating
         readOnly
-        value={4 - rating}
+        value={5 - rating}
         max={4}
         icon={<FavoriteIcon fontSize="inherit" />}
       />

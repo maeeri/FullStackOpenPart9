@@ -21,7 +21,7 @@ app.post('/exercises', (req, res) => {
     if (!req.body) {
         res.sendStatus(404);
     }
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    // eslint-disable-next-line 
     const { daily_exercises, target }: any = req.body;
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     const exObj = calculateExercises(daily_exercises, target);
